@@ -30,9 +30,10 @@ function filtrar(funcion) {
     for (let i = 0; i < this.length; i++) {
       if (cb(this[i]) === true ) resultado.push(this[i])
     }
-    return resultado
+    return resultado ;
   }
 
+ 
 
 };
 
